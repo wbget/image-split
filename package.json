@@ -1,7 +1,7 @@
 {
   "name": "@wbget/image-split",
   "description": "split image",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "bin": {
     "image-split": "bin/index.js"
   },
