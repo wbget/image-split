@@ -1,0 +1,47 @@
+{
+  "name": "@wbget/image-split",
+  "description": "split image",
+  "version": "0.0.0",
+  "bin": {
+    "image-split": "bin/index.js"
+  },
+  "dependencies": {
+    "compressorjs": "^1.0.7",
+    "pngjs": "^6.0.0",
+    "sharp": "^0.30.7",
+    "enquirer": "^2.3.6"
+  },
+  "devDependencies": {
+    "mwts": "^1.2.2",
+    "np": "^7.6.2"
+  },
+  "scripts": {
+    "release": "npx np --no-cleanup --no-2fa"
+  },
+  "np": {
+    "yarn": false
+  },
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbget/image-split.git"
+  },
+  "keywords": [
+    "image",
+    "split",
+    "map",
+    "game"
+  ],
+  "author": "wbget",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbget/image-split/issues"
+  },
+  "homepage": "https://github.com/wbget/image-split#readme"
+}
