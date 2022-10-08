@@ -11,7 +11,7 @@ npm install -D @wbget/image-split
 ## Usage
 
 ```
-npx image-split
+npx image-split your-path-to-image dist-path-to-save
 ```
 
 ```
