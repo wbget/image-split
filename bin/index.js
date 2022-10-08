@@ -86,6 +86,6 @@ const main = async (src, out, W, H) => {
     process.exit(-1);
   }
   await main(src, out, parseInt(width), parseInt(height));
-})();
-// DO NOTHING
-//   .catch(error => {});
+})()
+  // DO NOTHING
+  .catch(error => {});

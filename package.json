@@ -6,7 +6,6 @@
     "image-split": "bin/index.js"
   },
   "dependencies": {
-    "compressorjs": "^1.0.7",
     "pngjs": "^6.0.0",
     "sharp": "^0.30.7",
     "enquirer": "^2.3.6"
